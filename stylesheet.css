@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Item Section Styles */
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+dt {
+    font-weight: bold;
+}
+
+/* Timing Section Styles */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+/* About Section Styles */
+
+.about p {
+    text-align: justify;
+}
+
+/* Contact Section Styles */
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+form p {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: #555;
+}
